@@ -1,0 +1,115 @@
+.de_tabside{
+    width: 80px;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: center;
+    border-radius: 12px;
+    background-color: #F0F0F0;
+}
+
+.de_tablogomainwrapper{
+    width: 55px;
+    height: 55px;
+    padding: 5px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px dashed #FFB77C;
+}
+
+.de_tablogosubwrapper{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #FFB77C;
+    box-shadow: 0px 0px 4px 0px #FFB77C;
+}
+
+.de_tablogosubwrapper img{
+    width: 100%;
+    height: 28px;
+    filter: invert(100%);
+}
+
+.de_headerwrapper{
+    width: 93%;
+    margin-top: 40px;
+    display: flex;
+    align-items: top;
+}
+
+.de_bodywrapper{
+    gap: 15px;
+    width: 87%;
+    height: 100%;
+    padding: 15px;
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px 0px 1px 0px #D4D4D4;
+}
+
+.de_bodycmainwrapper{
+    width: 100%;
+    padding: 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #E3E3E3;
+    background-color: #F0F0F0;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    box-shadow: 0px 0px 2px 0px #F0F0F0; 
+}
+
+.de_bodycsubwrapper{
+    width: 93%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.de_bodycinfowrapper{
+    gap: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.de_bodycinfowrapper img{
+    width: 50px;
+    margin-bottom: 5px;
+}
+
+.de_bodycinfowrapper h3{
+    color: #2B2B2B;
+    font-size: 20px;
+}
+
+.de_bodycinfowrapper p{ color: #FFB77C;}
+
+.de_bodycbuttonwrapper{
+    padding: 5px;
+    overflow: hidden;
+    border-radius: 12px;
+    background-color: #2B2B2B;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0px 0px 2px 0px #2B2B2B;
+}
+
+.de_bodypend{
+    font-weight: 600;
+    margin-top: 20px;
+    text-align: center;
+}

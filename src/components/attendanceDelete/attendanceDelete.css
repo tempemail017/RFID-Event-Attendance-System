@@ -1,0 +1,34 @@
+.ad_mainbutton{
+    margin: auto;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFB77C;
+    box-shadow: 0px 0px 2px 0px #FFB77C;
+}
+
+.ad_mainbutton img{ filter: invert(100%);}
+
+.ad_header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ad_header p{ 
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 12px;
+}
+
+.ad_footer{
+    gap: 10px;
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.ad_footer button{ padding: 12px;}
+
+.ad_footer button:nth-child(2){ background-color: #FFB77C;}

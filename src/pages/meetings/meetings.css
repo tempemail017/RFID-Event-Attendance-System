@@ -1,0 +1,103 @@
+.meet_headerwrapper, .meet_bodywrapper{
+    width: 93%;
+    margin-top: 40px;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.meet_bodywrapper{
+    gap: 25px;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.meet_bodyoptionswrapper{
+    gap: 35px;
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+}
+
+.meet_searcheventfield{
+    width: 100%;
+    margin-top: 12px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: end;
+}
+
+.meet_searcheventfield input{
+    width: 100%;
+    padding: 16px 15px;
+}
+
+.meet_searcheventfield img{
+    right: 18px;
+    position: absolute;
+}
+
+.meet_optiondatefilterwrapper input{
+    width: 88%;
+    margin-top: 13px;
+    padding: 16px 15px;
+}
+
+.meet_tablewrapper{
+    width: 75%;
+    height: 100%;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 0px 0px 2px 0px #D4D4D4;
+}
+
+.meet_tablewrapper table{ table-layout: fixed;}
+
+.meet_tablewrapper p{
+    font-weight: 600;
+    margin-top: 57px;
+    text-align: center;
+}
+
+.meet_tableactionsh{text-align: center;}
+
+.meet_tableactions{
+    gap: 20px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.meet_tableactionsoption1{
+    gap: 10px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.meet_tableactionsoption2{
+    gap: 8px;
+    height: 100%;
+    margin: auto;
+    padding: 8px 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: 1px solid #D4D4D4;
+    background-color: #F0F0F0;
+    box-shadow: 0px 0px 1px 0px #D4D4D4;
+}
+
+.meet_tableactionsoption2 p{ margin: 0px; padding: 0px;}
+
+.meet_tableactionsoption2 img{ 
+    height: 15px;
+    filter: opacity(65%);
+}
+
